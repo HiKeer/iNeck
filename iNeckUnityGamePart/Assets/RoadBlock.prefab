@@ -12,8 +12,11 @@ GameObject:
   - component: {fileID: 4793025235707570331}
   - component: {fileID: 6436191583085859673}
   - component: {fileID: 1994601083577261312}
+<<<<<<< HEAD
   - component: {fileID: 7991146578363733613}
   - component: {fileID: 1298888541863199178}
+=======
+>>>>>>> 359e37b (CAMAREandGame_double)
   m_Layer: 3
   m_Name: RoadBlock
   m_TagString: Untagged
@@ -107,6 +110,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &7991146578363733613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,3 +152,5 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> 359e37b (CAMAREandGame_double)

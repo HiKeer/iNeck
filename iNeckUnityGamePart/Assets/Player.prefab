@@ -12,6 +12,10 @@ GameObject:
   - component: {fileID: 2383672304722977620}
   - component: {fileID: 5776944002212067036}
   - component: {fileID: 7401461257367204813}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 471458897338624453}
+>>>>>>> 359e37b (CAMAREandGame_double)
   - component: {fileID: 6545214525504924450}
   m_Layer: 0
   m_Name: Player
@@ -107,6 +111,31 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &471458897338624453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52745422703968181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2acfb661141e5e94d824514b160d8fba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LaneTransForm:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  JumpHeight: 1.2
+  GrounCheckTransform: {fileID: 8311046642488531472}
+  GroundCheckRadius: 0.2
+  GroundCheckMask:
+    serializedVersion: 2
+    m_Bits: 8
+>>>>>>> 359e37b (CAMAREandGame_double)
 --- !u!54 &6545214525504924450
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -132,7 +161,11 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
+<<<<<<< HEAD
   m_Constraints: 114
+=======
+  m_Constraints: 0
+>>>>>>> 359e37b (CAMAREandGame_double)
   m_CollisionDetection: 0
 --- !u!1 &181151236594862915
 GameObject:

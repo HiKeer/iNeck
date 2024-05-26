@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 is_global = true
 build_property.RootNamespace = 
 build_property.ProjectDir = D:\UNITY 2021\Project\iNeck\
+=======
+is_global = true
+build_property.RootNamespace = 
+build_property.ProjectDir = D:\UNITY 2021\Project\iNeck\
+>>>>>>> 359e37b (CAMAREandGame_double)
