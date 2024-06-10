@@ -193,7 +193,7 @@ def run_camera2(index):
             right_face_detected = False
 
             for rect in face_rects:
-                if rect.width() < width and rect.height() < height:  # 检查人脸框的大小是否合理
+                if ret:#rect.width() < width and rect.height() < height:  # 检查人脸框的大小是否合理
                     shape = predictor(frame, rect)
                     shape = face_utils.shape_to_np(shape)
                     reprojectdst, euler_angle = get_head_pose(shape)
@@ -274,15 +274,13 @@ def run_camera2(index):
 
 
                     # 显示图像和姿态数据
-                    # 显示图像和姿态数据
-                    # 显示图像和姿态数据
                     for start, end in line_pairs:
                         pt1 = (int(reprojectdst[start][0]), int(reprojectdst[start][1]))
                         pt2 = (int(reprojectdst[end][0]), int(reprojectdst[end][1]))
 
-                        # 修剪坐标，确保不超出a范围
-                        pt1 = (max(0, min(pt1[0], width - 1)), max(0, min(pt1[1], height - 1)))
-                        pt2 = (max(0, min(pt2[0], width - 1)), max(0, min(pt2[1], height - 1)))
+                        # # 修剪坐标，确保不超出a范围
+                        # pt1 = (max(0, min(pt1[0], width - 1)), max(0, min(pt1[1], height - 1)))
+                        # pt2 = (max(0, min(pt2[0], width - 1)), max(0, min(pt2[1], height - 1)))
 
                         if face_x < middle_line_x:
                             cv2.line(frame, pt1, pt2, (191, 63, 127), 2)  # 左侧
