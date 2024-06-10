@@ -7,13 +7,14 @@
 
   二、代码库介绍</br>
   1.CAMERAandGame_double：实现了面部识别和双人游戏结合的最初版本</br>
-  2.doubleGamefinal：实现了面部识别和双人游戏结合的最终版本（点击游戏模式oneplayer/twoplayer后根据不同的模式出现不同的摄像头画面，但卡顿），可以通过python代码执行或doubleGamefinal/dist/main/main.exe文件执行全部代码，但摄像头卡顿。游戏的exe文件存于doubleGamefinal/Build3/iNeck.exe</br>
-  3.doubleGamefinal2：实现了面部识别和双人游戏结合的最终版本（摄像头保持在屏幕上方且为双人模式），可以通过python代码执行或doubleGamefinal2/dist/main/main.exe文件执行全部代码，但摄像头卡顿。游戏的exe文件存于</br>doubleGamefinal2/Build3/iNeck.exe</br>
-  4.iNeckModels：blender模型文件</br>
-  5.iNeckStartAndEndPart：初始及结束界面</br>
-  6.iNeckUnityGamePart：游戏的某一版本</br>
-  7.iNeck_camera：实现面部识别的python代码初版</br>
-  8.starNeckGame：游戏的最终版本</br>
+  2.main_double_improvement：对“CAMERAandGame_double”进行了逻辑修改、摄像头切割、添加白色定位框和紫红色框的改进后最初版本.由于全项目工程文件过大，故只上传main文件</br>
+  3.doubleGamefinal：实现了面部识别和双人游戏结合的最终版本（点击游戏模式oneplayer/twoplayer后根据不同的模式出现不同的摄像头画面，但卡顿），可以通过python代码执行或doubleGamefinal/dist/main/main.exe文件执行全部代码，但摄像头卡顿。游戏的exe文件存于doubleGamefinal/Build3/iNeck.exe</br>
+  4.doubleGamefinal2：实现了面部识别和双人游戏结合的最终版本（摄像头保持在屏幕上方且为双人模式），可以通过python代码执行或doubleGamefinal2/dist/main/main.exe文件执行全部代码，但摄像头卡顿。游戏的exe文件存于</br>doubleGamefinal2/Build3/iNeck.exe</br>
+  5.iNeckModels：blender模型文件</br>
+  6.iNeckStartAndEndPart：初始及结束界面</br>
+  7.iNeckUnityGamePart：游戏的某一版本</br>
+  8.iNeck_camera：实现面部识别的python代码初版</br>
+  9.starNeckGame：游戏的最终版本</br>
   
   三、小组分工</br>
   为了确保项目的顺利进行和高效完成，我们团队制定了详细的分工计划。本文档旨在明确团队成员的职责、任务和工作范围，确保每位成员都清楚自己的角色和期望。</br>
